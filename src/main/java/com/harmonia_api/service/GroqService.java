@@ -163,7 +163,7 @@ Preferências musicais:
 );
 
         RequisicaoGroqDTO requisicao = new RequisicaoGroqDTO(
-                "llama-3.3-70b-versatile",
+                "openai/gpt-oss-120b",
                 java.util.List.of(
                         new RequisicaoGroqDTO.Message(
                                 "user",
